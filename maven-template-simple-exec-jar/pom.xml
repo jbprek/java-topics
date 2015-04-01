@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>org.bagab.java.template.maven</groupId>
-	<artifactId>simple-exec-jar</artifactId>
+	<artifactId>maven-template-simple-exec-jar</artifactId>
 	<version>1.0-SNAPSHOT</version>
 
 	<properties>
