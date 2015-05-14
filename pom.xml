@@ -13,6 +13,7 @@
 		<module>maven-template-simple-jar</module>
 		<module>maven-template-simple-exec-jar</module>
 		<module>maven-template-multi-module</module>
+		<module>dates_and_times</module>
 	</modules>
-	
+
 </project>

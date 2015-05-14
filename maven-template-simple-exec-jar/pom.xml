@@ -7,6 +7,8 @@
 	<artifactId>maven-template-simple-exec-jar</artifactId>
 	<version>1.0-SNAPSHOT</version>
 
+	<name>${project.artifactId}</name>
+
 	<properties>
 		<version.compiler.plugin>3.1</version.compiler.plugin>
 		<version.surefire.plugin>2.16</version.surefire.plugin>
@@ -50,9 +52,9 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>${version.surefire.plugin}</version>
-				<configuration>
-					<skip>true</skip>
-				</configuration>
+				<!--<configuration>-->
+					<!--<skip>true</skip>-->
+				<!--</configuration>-->
 			</plugin>
 
 
